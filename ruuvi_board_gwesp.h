@@ -14,10 +14,10 @@
 
 // Bus to NRF52
 #define RB_GWBUS_1   GPIO_NUM_5     //!< UART ESP -> NRF (ESP: GPIO5)
-#define RB_GWBUS_2   GPIO_NUM_36    //!< UART NRF -> ESP (ESP: SENSOR_VP, input only)
+#define RB_GWBUS_2   GPIO_NUM_4    //!< UART NRF -> ESP (ESP: SENSOR_VP, input only)
 #define RB_GWBUS_3   GPIO_NUM_37    //!< (ESP: SENSOR_CAPP, input only)
 #define RB_GWBUS_4   GPIO_NUM_38    //!< (ESP: SENSOR_CAPN, input only)
-#define RB_GWBUS_LNA GPIO_NUM_4
+#define RB_GWBUS_LNA GPIO_NUM_12 
 
 // UART to nRF52
 #define TXD_PIN    RB_UART_ESP2NRF
